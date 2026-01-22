@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { CatLogoSvg } from '@svg/index';
+import Image from 'next/image';
 import NavBar from '@components/NavBar';
 import styles from '@styles/Header.module.css';
 
@@ -13,17 +13,17 @@ function Header(): JSX.Element {
       <div className={styles.logo}>
         <div className="h-16">
           <Link href="/">
-            <CatLogoSvg className="w-full h-full" />
+            <Image src="/icons/BD.png" alt="Bogura-6" width={36} height={36} />
           </Link>
         </div>
       </div>
       <div className={styles.name}>
-        <Link href="/">Cats Realm</Link>
+        <Link href="/">Bogura-6</Link>
       </div>
       <div className={styles.small}>
         <div className={styles.smallCat}>
-          <Link href="/" aria-label="Cat">
-            <CatLogoSvg className="w-full h-full" />
+          <Link href="/" aria-label="Bogura-6">
+            <Image src="/icons/BD.png" alt="Bogura-6" width={64} height={64} />
           </Link>
         </div>
       </div>

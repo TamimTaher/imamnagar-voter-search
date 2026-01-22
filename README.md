@@ -4,7 +4,7 @@
     <img src="https://user-images.githubusercontent.com/108562458/218249242-eae38eaa-c41c-4ab3-87d6-58eabdee6adb.png" height="150px" alt="Cats Realm" />
   </a>
   <!-- PROJECT NAME -->
-  <h1><b>Cats Realm 🐾</b></h1>
+  <h1><b>Bogura-6</b></h1>
   <!-- PROJECT DESCRIPTION -->
   <p>A Solid Foundation for Building Scalable and Efficient Progressive Web Application!</p>
   <!-- PROJECT URL -->
@@ -111,7 +111,7 @@ This template includes a pre-configured setup for service workers, offline suppo
 
 ## 🔍 Features
 
-- 🐾 **Cats Realm** PWA using Next 13
+- 🗳️ **Bogura-6** PWA using Next 13
 - 🌗 Awesome dark/light themes
 - 📱 Native like mobile experience
 - 🎯 Make Development simple

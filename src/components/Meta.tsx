@@ -5,7 +5,7 @@
 function Meta(): JSX.Element {
   return (
     <>
-      <title>Cats Realm</title>
+      <title>Bogura-6</title>
       <meta charSet="utf-8" />
       <meta name="author" content="Ajay Kanniyappan" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -20,13 +20,12 @@ function Meta(): JSX.Element {
         content="Next.js, pwa, React, HTML, CSS, JavaScript, TypeScript, cats, facts, breeds"
       />
       {/* THEMES */}
-      <meta name="color-scheme" content="dark light" />
-      <meta name="theme-color" content="#F3EFE0" media="(prefers-color-scheme: light)" />
-      <meta name="theme-color" content="#18181b" media="(prefers-color-scheme: dark)" />
+      <meta name="color-scheme" content="light" />
+      <meta name="theme-color" content="#F3EFE0" />
       <meta name="mobile-web-app-capable" content="yes" />
       <meta name="apple-mobile-web-app-capable" content="yes" />
-      <meta name="apple-mobile-web-app-title" content="Cats Realm" />
-      <meta name="application-name" content="Cats Realm" />
+      <meta name="apple-mobile-web-app-title" content="Bogura-6" />
+      <meta name="application-name" content="Bogura-6" />
       <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
       {/* ICONS */}
       <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png" />

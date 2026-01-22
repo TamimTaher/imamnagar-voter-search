@@ -7,7 +7,20 @@ import Home from '@components/Home';
 import Header from '@components/Header';
 import Meta from '@components/Meta';
 import NavBar from '@components/NavBar';
+import SplashScreen from '@components/SplashScreen';
 import Toasts from '@components/Toasts';
 
 /* Exporting the components files from the components folder. */
-export { BottomNav, BreedCard, BuyMeaCoffee, FactCard, Footer, Home, Header, Meta, NavBar, Toasts };
+export {
+  BottomNav,
+  BreedCard,
+  BuyMeaCoffee,
+  FactCard,
+  Footer,
+  Home,
+  Header,
+  Meta,
+  NavBar,
+  SplashScreen,
+  Toasts,
+};

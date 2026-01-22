@@ -7,7 +7,7 @@ import { BottomNav, Footer, Header } from '@components/index';
  * @returns A React component that renders a header, footer, and main content.
  */
 function Page({ title, className, children }: cat.PageProps): JSX.Element {
-  const pageTitle = title === 'Home' ? 'Cats Realm' : `Cats Realm | ${title}`;
+  const pageTitle = title === 'Home' ? 'Bogura-6' : `Bogura-6 | ${title}`;
 
   return (
     <>
