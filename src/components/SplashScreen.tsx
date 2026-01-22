@@ -26,17 +26,15 @@ function SplashScreen({ onComplete, duration = 3000 }: SplashScreenProps): JSX.E
   return (
     <div className={`splash-screen ${!isVisible ? 'splash-screen-hidden' : ''}`}>
       <div className="splash-content">
-        <Image
-          src="/images/UI.gif"
-          alt="Bogura-6"
-          width={300}
-          height={300}
-          priority
-          unoptimized
-        />
+        <Image src="/images/UI.gif" alt="Bogura-6" width={300} height={300} priority unoptimized />
       </div>
     </div>
   );
 }
 
+SplashScreen.defaultProps = {
+  duration: 3000,
+};
+
 export default SplashScreen;
+

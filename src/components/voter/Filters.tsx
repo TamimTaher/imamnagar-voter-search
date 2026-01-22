@@ -1,6 +1,7 @@
-import React from "react";
-import { VoterStatus } from "../../types/voter";
-import { Users, Briefcase, CheckCircle2 } from "lucide-react";
+import React from 'react';
+import { Users, Briefcase, CheckCircle2 } from 'lucide-react';
+import { VoterStatus } from '../../types/voter';
+
 
 interface FiltersProps {
   gender: "all" | "female" | "male";
