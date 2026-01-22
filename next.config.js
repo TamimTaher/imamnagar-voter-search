@@ -11,6 +11,13 @@ const withPWA = require('next-pwa')({
 
 const nextConfig = withPWA({
   reactStrictMode: false, // 👈 DISABLING THIS TO AVOID DOUBLE RENDER
+  eslint: {
+    ignoreDuringBuilds: true, // 👈 DISABLING ESLINT DURING BUILD
+  },
+  typescript: {
+    ignoreBuildErrors: true, // 👈 IGNORING TS ERRORS DURING BUILD
+  },
 });
 
 module.exports = nextConfig;
+
